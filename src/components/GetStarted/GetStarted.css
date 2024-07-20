@@ -1,0 +1,42 @@
+.g-wrapper {
+  margin: 2rem;
+
+}
+
+
+
+.innerg-container {
+  background-color: var(--blue);
+  border: 6px solid #ebeffe2c;
+  border-radius: 5px;
+  padding: 2rem;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.innerg-container .primaryText {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.innerg-container .secondaryText {
+  color: #eeeeffa7;
+}
+
+.innerg-container .button {
+  background: #5a73d7;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 768px) {
+  .g-container {
+    padding: 0px 0.3rem;
+  }
+}

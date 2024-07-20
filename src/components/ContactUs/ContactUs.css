@@ -1,0 +1,76 @@
+.cu-container {
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+/* .cu-container>div {
+  flex: 1;
+} */
+
+
+.cu-left {
+  gap: 0.5rem;
+}
+
+.cu-card {
+  margin-top: 1rem;
+  border: 0.8px solid #eeeeff;
+  border-radius: 5px;
+  gap: 1rem;
+  width: 16rem;
+  padding: 1rem;
+  transition: all 200ms ease-out;
+}
+
+.cu-card-heading {
+  gap: 1.2rem;
+}
+
+.cu-mode .primaryText {
+  font-size: 1rem;
+}
+
+.cu-card .button {
+  width: 100%;
+  background: var(--lightBlue);
+  color: var(--blue);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.4s ease-out;
+}
+
+.cu-card .button:hover {
+  transform: scale(0.9);
+  background: var(--blue);
+  color: var(--lightBlue);
+}
+
+.cu-card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);
+}
+
+.row {
+  gap: 1.3rem;
+}
+
+@media (max-width: 1024px) {
+  .cu-container {
+    flex-direction: column;
+  }
+
+  .cu-right {
+    justify-content: center;
+  }
+
+  .cu-card{
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+}
