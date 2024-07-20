@@ -23,22 +23,19 @@ const Hero = () => {
 
           {/* Description */}
           <div className="flexColStart hero-des">
-            <span className="secondaryText">
-              Find a variety of properties that suit you very easilty
-            </span>
-            <span className="secondaryText">
-              {" "}
-              Forget all difficulties in finding a residence for you
-            </span>
+            <p className="secondaryText">
+              Find a variety of properties that suit you very easilty Forget all
+              difficulties in finding a residence for you
+            </p>
           </div>
 
           {/* Search input */}
-          <div className=" search-bar">
-            <div className="flexStart icon-and-input-container">
+          <div className="flexColStart search-bar">
+            <div className="flexStart text-field">
               <HiLocationMarker color="var(--blue)" size={25} />
               <input type="text" placeholder="Enter your location" />
-              <button className="button">Search</button>
             </div>
+            <button className="button">Search</button>
           </div>
 
           {/* Count up cards */}
