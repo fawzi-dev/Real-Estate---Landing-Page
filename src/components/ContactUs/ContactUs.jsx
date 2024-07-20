@@ -16,22 +16,24 @@ const ContactUs = () => {
             beleive a good <br /> blace to live can make your life better
           </span>
 
-          <div className="flexStart row">
-            <ContacCard icon={<MdLocalPhone size={20} />} title={"Call"} />
-            <ContacCard
-              icon={<BsFillChatDotsFill size={20} />}
-              title={"Chat"}
-            />
-          </div>
-          <div className="flexStart row">
-            <ContacCard
-              icon={<MdLocalPhone size={20} />}
-              title={"Video Call"}
-            />
-            <ContacCard
-              icon={<BsFillChatSquareFill size={20} />}
-              title={"Message"}
-            />
+          <div className="col">
+            <div className="flexStart row ">
+              <ContacCard icon={<MdLocalPhone size={20} />} title={"Call"} />
+              <ContacCard
+                icon={<BsFillChatDotsFill size={20} />}
+                title={"Chat"}
+              />
+            </div>
+            <div className="flexStart row">
+              <ContacCard
+                icon={<MdLocalPhone size={20} />}
+                title={"Video Call"}
+              />
+              <ContacCard
+                icon={<BsFillChatSquareFill size={20} />}
+                title={"Message"}
+              />
+            </div>
           </div>
         </div>
 

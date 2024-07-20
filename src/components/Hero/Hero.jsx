@@ -33,10 +33,12 @@ const Hero = () => {
           </div>
 
           {/* Search input */}
-          <div className="flexCenter search-bar">
-            <HiLocationMarker color="var(--blue)" size={25} />
-            <input type="text" placeholder="Enter your location" />
-            <button className="button">Search</button>
+          <div className=" search-bar">
+            <div className="flexStart icon-and-input-container">
+              <HiLocationMarker color="var(--blue)" size={25} />
+              <input type="text" placeholder="Enter your location" />
+              <button className="button">Search</button>
+            </div>
           </div>
 
           {/* Count up cards */}
